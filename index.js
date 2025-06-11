@@ -4,4 +4,18 @@ const rules = {
   'nextjs-no-getinitialprops': noGetInitialProps,
 }
 
-export default rules
+const plugin = {
+  rules,
+  flat: {
+    plugins: {
+      'nextjs-no-getinitialprops': {
+        rules,
+      },
+    },
+    rules: {
+      'nextjs-no-getinitialprops/nextjs-no-getinitialprops': 'error',
+    },
+  },
+};
+
+export default plugin
