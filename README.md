@@ -1,4 +1,4 @@
-# eslint-plugin-no-getinitialprops
+#eslint-plugin-nextjs-no-getinitialprops
 
 [![npm version](https://img.shields.io/npm/v/eslint-plugin-no-getinitialprops.svg)](https://www.npmjs.com/package/eslint-plugin-no-getinitialprops)
 
@@ -17,13 +17,13 @@ This plugin enforces that `getInitialProps` is not used anywhere in your codebas
 ## 📦 Installation
 
 ```bash
-npm install --save-dev eslint-plugin-no-getinitialprops
+npm install --save-deveslint-plugin-nextjs-no-getinitialprops
 ```
 
 or with yarn:
 
 ```bash
-yarn add --dev eslint-plugin-no-getinitialprops
+yarn add --deveslint-plugin-nextjs-no-getinitialprops
 ```
 
 ---
@@ -34,18 +34,18 @@ Add the plugin and rule to your ESLint config:
 
 ```json
 {
-  "plugins": ["no-getinitialprops"],
+  "plugins": ["nextjs-no-getinitialprops"],
   "rules": {
-    "no-getinitialprops/no-getinitialprops": "error"
+    "nextjs-no-getinitialprops/nextjs-no-getinitialprops": "error"
   }
 }
 ```
 
 ---
 
-## ✅ Rule: `no-getinitialprops`
+## ✅ Rule: `nextjs-no-getinitialprops`
 
-This rule disallows using or assigning `getInitialProps` on components.
+This rule disallows using or assigning `getInitialProps` on Page components.
 
 ### ❌ Incorrect Examples
 
