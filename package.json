@@ -1,0 +1,39 @@
+{
+  "name": "eslint-plugin-nextjs-no-getinitialprops",
+  "version": "0.1.0",
+  "author": "@jeremieP",
+  "bugs":{
+    "url": "https://github.com/jeremieP/eslint-plugin-nextjs-no-getinitialprops/issues"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremieP/eslint-plugin-nextjs-no-getinitialprops.git"
+  },
+  "homepage": "https://github.com/jeremieP/eslint-plugin-nextjs-no-getinitialprops",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "nextjs",
+    "getInitialProps"
+  ],
+  "main": "index.js",
+  "files": ["index.js", "lib/"],
+  "type": "module",
+  "exports": {
+    ".": "./index.js"
+  },
+  "peerDependencies": {
+    "eslint": ">=9.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.28.0",
+    "eslint-plugin-eslint-plugin": "^6.4.0",
+    "eslint-rule-composer": "^0.3.0"
+  },
+
+  "scripts": {
+      "test": "node ./tests/nextjs-no-getinitialprops.test.js"
+  }
+}
