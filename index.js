@@ -1,5 +1,7 @@
 import noGetInitialProps from './lib/rules/nextjs-no-getinitialprops.js'
 
-export const rules = {
+const rules = {
   'nextjs-no-getinitialprops': noGetInitialProps,
 }
+
+export default rules
