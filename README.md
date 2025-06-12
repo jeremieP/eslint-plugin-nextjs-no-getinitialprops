@@ -1,6 +1,6 @@
-#eslint-plugin-nextjs-no-getinitialprops
+# eslint-plugin-nextjs-no-getinitialprops
 
-[![npm version](https://img.shields.io/npm/v/eslint-plugin-no-getinitialprops.svg)](https://www.npmjs.com/package/eslint-plugin-no-getinitialprops)
+[![npm version](https://img.shields.io/npm/v/eslint-plugin-nextjs-no-getinitialprops.svg)](https://www.npmjs.com/package/eslint-plugin-nextjs-no-getinitialprops)
 
 > ESLint plugin to disallow usage of `getInitialProps` in Next.js applications.
 
@@ -17,13 +17,13 @@ This plugin enforces that `getInitialProps` is not used anywhere in your codebas
 ## 📦 Installation
 
 ```bash
-npm install --save-deveslint-plugin-nextjs-no-getinitialprops
+npm install --save-dev eslint-plugin-nextjs-no-getinitialprops
 ```
 
 or with yarn:
 
 ```bash
-yarn add --deveslint-plugin-nextjs-no-getinitialprops
+yarn add --dev eslint-plugin-nextjs-no-getinitialprops
 ```
 
 ---
@@ -115,6 +115,14 @@ To run the tests:
 npm install
 npm test
 ```
+
+## Next steps
+
+This is a first quick version of the plugin, next steps will be :
+
+- Add TypeScript
+- Better tests
+- Better bundling
 
 ---
 
