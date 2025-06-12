@@ -31,9 +31,7 @@
     "eslint": ">=9.0.0"
   },
   "devDependencies": {
-    "eslint": "^9.28.0",
-    "eslint-plugin-eslint-plugin": "^6.4.0",
-    "eslint-rule-composer": "^0.3.0"
+    "eslint": "^9.28.0"
   },
   "scripts": {
     "test": "node ./tests/nextjs-no-getinitialprops.test.js"
