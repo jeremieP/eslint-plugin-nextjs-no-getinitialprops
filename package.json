@@ -31,9 +31,11 @@
     "eslint": ">=9.0.0"
   },
   "devDependencies": {
-    "eslint": "^9.28.0"
+    "eslint": "^9.28.0",
+    "vitest": "^3.2.3"
   },
   "scripts": {
-    "test": "node ./tests/nextjs-no-getinitialprops.test.js"
+    "test": "vitest run",
+    "test:watch": "vitest"
   }
 }
