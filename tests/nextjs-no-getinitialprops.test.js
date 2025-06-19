@@ -29,5 +29,3 @@ ruleTester.run('nextjs-no-getinitialprops', rule, {
     },
   ],
 })
-
-console.log("All tests passed!")
