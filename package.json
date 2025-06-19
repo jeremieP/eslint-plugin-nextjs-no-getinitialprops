@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-nextjs-no-getinitialprops",
-  "version": "0.2.0-rc.0",
+  "version": "0.3.0-rc.0",
   "author": "@jeremieP",
   "bugs": {
     "url": "https://github.com/jeremieP/eslint-plugin-nextjs-no-getinitialprops/issues"
